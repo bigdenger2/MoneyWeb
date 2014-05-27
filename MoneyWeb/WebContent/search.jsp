@@ -38,6 +38,7 @@
 ●<a href="input">新規登録</a>
 ●<a href="search">一覧の再表示</a>
 
+
 <hr />
 <c:if test="${message != '' }">
 	<c:out value="${message}" />
