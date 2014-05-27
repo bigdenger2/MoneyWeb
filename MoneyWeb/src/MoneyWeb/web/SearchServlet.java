@@ -18,7 +18,7 @@ import MoneyWeb.entity.MoneyWebValueObject;
  * Servlet implementation class SearchServlet
  */
 
-@WebServlet("/search")
+@WebServlet("/SearchServlet")
 public class SearchServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
