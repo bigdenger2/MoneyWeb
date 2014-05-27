@@ -1,11 +1,13 @@
 package MoneyWeb.entity;
 
+import java.sql.Time;
 import java.sql.Timestamp;
 
 public class MoneyWebValueObject {
 	
 	String userid;
-	Timestamp date;
+	String tableid;
+	String date;
 	String title;
 	String task;
 	Integer firstmoney;
@@ -20,10 +22,17 @@ public class MoneyWebValueObject {
 		this.userid = userid;
 	}
 	
-	public Timestamp getDate(){
+	public String getTableid() {
+		return tableid;
+	}
+	public void setTableid(String tableid) {
+		this.tableid = tableid;
+	}
+	
+	public String getDate(){
 		return date;
 	}
-	public void setDate(Timestamp date){
+	public void setDate(String date){
 		this.date = date;
 	}
 	
