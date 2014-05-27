@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context displayName="Teach Yourself Java" docBase="Moneyweb"
+  path="MoneyWeb" reloadable="true">
+  <Realm className="org.apache.catalina.realm.DataSourceRealm"
+    dataSourceName="jdbc/MoneyWeb" localDataSource="true" digest="MD5"
+    roleNameCol="role" userCredCol="passwd" userNameCol="uid"
+    userRoleTable="usr_role" userTable="usr" />
+  
+  <Resource name="jdbc/MoneyWeb" auth="Container"
+    type="javax.sql.DataSource" username="root" password="root"
+    driverClassName="org.gjt.mm.mysql.Driver"
+    url="jdbc:mysql://localhost/test?useUnicode=true&amp;characterEncoding=UTF-8" maxActive="4" maxWait="5000" maxIdle="2"
+	validationQuery="SELECT count(*) FROM commodity" />
+</Context>
