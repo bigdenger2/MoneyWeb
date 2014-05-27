@@ -14,5 +14,6 @@ Connection db = ds.getConnection();
 db.close();
 %>
 データベースへの接続に成功しましたよ
+
 </body>
 </html>
