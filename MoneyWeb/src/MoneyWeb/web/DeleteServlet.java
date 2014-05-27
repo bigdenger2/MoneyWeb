@@ -20,6 +20,8 @@ public class DeleteServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		//DAO�̎擾
+		
+		
 		MoneyWebDAO dao = new MoneyWebDAO();
 		try {
 			dao.getConnection();
