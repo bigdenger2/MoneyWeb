@@ -22,9 +22,15 @@ public class CreateServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
     		throws ServletException, IOException {
     	
+    	request.setCharacterEncoding("UTF-8");
+    	String userid = request.getParameter("userid");
+    	String pass = request.getParameter("pass");
+    	
     	MoneyWebDAO dao = new MoneyWebDAO();
     	try {
     		dao.getConnection();
+    		
+    		
     	} catch (Exception e) {
     		throw new ServletException(e);
     	} finally {
