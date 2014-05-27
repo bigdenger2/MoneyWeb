@@ -10,6 +10,7 @@
 <form method="POST" action="downloadresult.jsp">
 <select name="table">
 <%
+
 Connection db = null;
 ResultSet rs = null;
 try{
