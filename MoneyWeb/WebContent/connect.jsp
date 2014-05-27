@@ -13,6 +13,6 @@ DataSource ds = (DataSource)context.lookup("java:comp/env/jdbc/MoneyWeb");
 Connection db = ds.getConnection();
 db.close();
 %>
-データベースへの接続に成功しました
+データベースへの接続に成功しましたよ
 </body>
 </html>
