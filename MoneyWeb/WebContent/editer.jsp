@@ -8,7 +8,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <title>編集画面</title>
+
 </head>
 <%--<link rel="stylesheet" type="text/css" href="../Todo.css" media= "all"/> --%>
 <body>
