@@ -7,7 +7,7 @@
 <title>新規ユーザ登録</title>
 </head>
 <body>
-<form action="Create" method="post"></form>
+<form action="Create" method="POST"></form>
 <table>
 	<tr>
 		<td>新規ユーザID</td>

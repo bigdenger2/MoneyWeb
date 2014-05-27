@@ -7,7 +7,7 @@
 <title>ログイン</title>
 </head>
 <body>
-<form action="Login" method="post"></form>
+<form action="Login" method="POST"></form>
 <table>
 	<tr>
 		<td>ユーザID</td>
@@ -22,6 +22,6 @@
 <input type="submit" value="ログイン" />
 <br />
 <br />
-☆<a href="./NewRegister" >新規ユーザ登録の方こちらへ</a>
+☆<a href="./Create" >新規ユーザ登録の方はこちらへ</a>
 </body>
 </html>
