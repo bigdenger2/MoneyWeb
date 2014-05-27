@@ -13,7 +13,7 @@
 <%-- <link rel="stylesheet" type="text/css" href="../Todo.css" media= "all"/>--%>
 </head>
 <body>
-<table border="1" align="center">
+<table border="1">
 	<tr>
 	  <th>コード</th>
 	  <th>日付</th>
