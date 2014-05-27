@@ -7,7 +7,7 @@
 <title>ログイン</title>
 </head>
 <body>
-<form action="" method="post"></form>
+<form action="Login" method="post"></form>
 <table>
 	<tr>
 		<td>ユーザID</td>

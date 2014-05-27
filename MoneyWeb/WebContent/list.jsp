@@ -15,7 +15,6 @@
 <body>
 <table border="1">
 	<tr>
-	  <th>コード</th>
 	  <th>日付</th>
 	  <th>科目</th>
 	  <th>概要</th>
@@ -26,7 +25,6 @@
 	</tr>
 	<c:forEach items="${todoList}" var="vo">
 	<tr>
-	  <td><c:out value="${vo.code}" /></td>
 	  <td><fmt:formatDate value="${vo.date}" pattern="yyyy-MM-dd"/></td>
 	  <td><c:out value="${vo.title}" /></td>
 	  <td><c:out value="${vo.task}" /></td>

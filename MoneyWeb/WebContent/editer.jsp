@@ -8,11 +8,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>登録画面</title>
+<title>編集画面</title>
 </head>
 <%--<link rel="stylesheet" type="text/css" href="../Todo.css" media= "all"/> --%>
 <body>
-<form id="sender" action="Register" method="POST">
+<form id="sender" action="Edit" method="POST">
 
 <table border="1" align="center">
 		    	
@@ -52,12 +52,18 @@
 <input type="hidden" name="id" value="<c:out value="${ vo.id }"/>" />
 <br>
 <div class="center">
-<input type="submit" value="登録する" /></div> 
+<input type="submit" value="編集する" /></div> 
 </form>
 <br>
+<form id="delete" action="Delete" method="POST">
+	<input type="hidden" name="id" value="<c:out value="${ vo.id }"/>" />
+	<div class="center">
+	<input type="submit" value="削除する" />
+	</div>
+</form>
 <div class="center">
 <br>
-☆<a href="./List" >表示一覧に戻る</a>
+☆<a href="./Edit" >表示一覧に戻る</a>
 </div>
 </body>
 </html>
